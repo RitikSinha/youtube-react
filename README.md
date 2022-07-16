@@ -9,17 +9,22 @@ I wanted to revise my react concepts so I created this project. This project hel
 ## Styled components
 ## Material Ui Icons
 
+#How to run this project locally
+##just clone it
+##run npm install
+## npm start
+## open localhost:3000 in browser
 # ✌️ Feel free to Star and contribute
 
-##Instructions
-Fork this repository
-Clone your forked repository
-Add your scripts
-Commit and push
-Create a pull request
-Star this repository
-Wait for pull request to merge
-Celebrate your first step into the open source world and contribute more
+## Instructions
+1.Fork this repository
+2.Clone your forked repository
+3.Add your code
+4.Commit and push
+5.Create a pull request
+6.Star this repository
+7.Wait for pull request to merge
+## ✨ Celebrate your first step into the open source world and contribute more ✨
 
 Here is link to backend (node js and express)
 
