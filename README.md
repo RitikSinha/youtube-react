@@ -39,13 +39,13 @@ npm start
 # ✌️ Feel free to Star and contribute
 
 ## Instructions
-1.Fork this repository
-2.Clone your forked repository
-3.Add your code
-4.Commit and push
-5.Create a pull request
-6.Star this repository
-7.Wait for pull request to merge
+1.Fork this repository </br>
+2.Clone your forked repository </br>
+3.Add your code </br>
+4.Commit and push </br>
+5.Create a pull request </br>
+6.Star this repository </br>
+7.Wait for pull request to merge </br>
 ## ✨ Celebrate your first step into the open source world and contribute more ✨
 
 Here is link to backend (node js and express)
