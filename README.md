@@ -9,11 +9,33 @@ I wanted to revise my react concepts so I created this project. This project hel
 ## Styled components
 ## Material Ui Icons
 
-# How to run this project locally
-## just clone it
-## run npm install
-## npm start
-## open localhost:3000 in browser
+## 🛠️ Installation Steps
+
+1. Clone the repository
+
+```bash
+git clone https://github.com/RitikSinha/youtube-react.git
+```
+
+2. Change the working directory
+
+```bash
+cd youtube-react
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Run the app
+
+```bash
+npm start
+```
+
+🌟 You are all set!
 # ✌️ Feel free to Star and contribute
 
 ## Instructions
