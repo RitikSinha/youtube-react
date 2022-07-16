@@ -73,7 +73,7 @@ const Title = styled.h2`
   font-size: 14px;
   font-weight: 500;
   color: ${({ theme }) => theme.textSoft};
-  margin-bottom: 20px;
+  margin-top: 20px;
 `;
 export const Menu = ({ darkmode, setDarkmode }) => {
   return (
@@ -154,6 +154,7 @@ export const Menu = ({ darkmode, setDarkmode }) => {
           <SettingsBrightnessOutlinedIcon />
           {darkmode ? "Light Mode" : "Dark Mode"}
         </Item>
+        <Title>made with ❤️ Ritik </Title>
       </Wrapper>
     </Container>
   );
