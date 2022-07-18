@@ -49,9 +49,9 @@ const Text = styled.div``;
 export const Card = () => {
   return (
     <Container>
-      <Image />
+      <Image src="https://i.ytimg.com/vi/QhuRWwPPids/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAnaJkUjuKbjmPNVU6gmDIG4E3DZQ" />
       <Details>
-        <ChannelImg />
+        <ChannelImg src="https://yt3.ggpht.com/EnqDJKAXGTaSMuplaTqlWhry_PJq-DSi5w3YrWjnp-AYFa-kwlYLkxP3MvXhC-tc_30NQCgNQP8=s176-c-k-c0x00ffffff-no-rj" />
         <Text>
           <Title>How I made million at age of 25</Title>
           <ChannelName>Ritik Sinha</ChannelName>
