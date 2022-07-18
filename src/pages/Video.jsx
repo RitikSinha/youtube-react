@@ -108,7 +108,7 @@ export const Video = () => {
           <iframe
             width="100%"
             height="720"
-            src="https://www.youtube.com/embed/k3Vfj-e1Ma4"
+            src="https://www.youtube.com/watch?v=mkyxoeIOZ4M"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -136,7 +136,7 @@ export const Video = () => {
         <Hr />
         <Channel>
           <ChannelInfo>
-            <Image src="https://yt3.ggpht.com/yti/APfAmoE-Q0ZLJ4vk3vqmV4Kwp0sbrjxLyB8Q4ZgNsiRH=s88-c-k-c0x00ffffff-no-rj-mo" />
+            <Image src="https://yt3.ggpht.com/EnqDJKAXGTaSMuplaTqlWhry_PJq-DSi5w3YrWjnp-AYFa-kwlYLkxP3MvXhC-tc_30NQCgNQP8=s176-c-k-c0x00ffffff-no-rj" />
             <ChannelDetail>
               <ChannelName>Ritik Sinha</ChannelName>
               <ChannelCounter>400K subscribers</ChannelCounter>

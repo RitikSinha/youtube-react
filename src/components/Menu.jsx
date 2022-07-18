@@ -18,6 +18,8 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import FlagOutlinedIcon from "@mui/icons-material/FlagOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightnessOutlined";
+import { Link } from "react-router-dom";
+import { color } from "@mui/system";
 
 const Container = styled.div`
   flex: 1;
@@ -76,6 +78,7 @@ const Title = styled.h2`
   margin-top: 20px;
 `;
 export const Menu = ({ darkmode, setDarkmode }) => {
+  const txtColor = darkmode ? "#fff" : "#121212";
   return (
     <Container>
       <Wrapper>
@@ -83,10 +86,12 @@ export const Menu = ({ darkmode, setDarkmode }) => {
           <Img src={ytlogo} />
           Youtube
         </Logo>
-        <Item>
-          <HomeIcon />
-          Home
-        </Item>
+        <Link to="/" style={{ textDecoration: "none", color: txtColor }}>
+          <Item>
+            <HomeIcon />
+            Home
+          </Item>
+        </Link>
         <Item>
           <ExploreOutlinedIcon />
           Explore
@@ -106,12 +111,19 @@ export const Menu = ({ darkmode, setDarkmode }) => {
         </Item>
 
         <Hr />
-        <Login>
-          <Button>
-            <AccountCircleOutlinedIcon />
-            Sign In
-          </Button>
-        </Login>
+        <Link
+          to="/login"
+          style={{
+            textDecoration: "none",
+          }}
+        >
+          <Login>
+            <Button>
+              <AccountCircleOutlinedIcon />
+              Sign In
+            </Button>
+          </Login>
+        </Link>
         <Hr />
         <Item>
           <LibraryMusicOutlinedIcon />
