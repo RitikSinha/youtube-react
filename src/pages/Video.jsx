@@ -139,7 +139,7 @@ export const Video = () => {
             <Image src="https://yt3.ggpht.com/EnqDJKAXGTaSMuplaTqlWhry_PJq-DSi5w3YrWjnp-AYFa-kwlYLkxP3MvXhC-tc_30NQCgNQP8=s176-c-k-c0x00ffffff-no-rj" />
             <ChannelDetail>
               <ChannelName>Ritik Sinha</ChannelName>
-              <ChannelCounter>400K subscribers</ChannelCounter>
+              <ChannelCounter>543K subscribers</ChannelCounter>
               <Description>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
                 Doloribus laborum delectus unde quaerat dolore culpa sit aliquam
