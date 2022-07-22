@@ -19,7 +19,7 @@ import FlagOutlinedIcon from "@mui/icons-material/FlagOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightnessOutlined";
 import { Link } from "react-router-dom";
-import { color } from "@mui/system";
+import { devices } from "../utils/Device";
 
 const Container = styled.div`
   flex: 1;
@@ -29,6 +29,9 @@ const Container = styled.div`
   position: sticky;
   top: 0;
   height: 100vh;
+  @media ${devices.tablet} {
+    display: none;
+  }
 `;
 const Wrapper = styled.div`
   padding: 18px 26px;

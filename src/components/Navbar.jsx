@@ -2,12 +2,16 @@ import AccountCircleOutlinedIcon from "@mui/icons-material/AccountCircleOutlined
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import { Link } from "react-router-dom";
 import styled from "styled-components";
+import { devices } from "../utils/Device";
 
 const Container = styled.div`
   position: sticky;
   top: 0;
   background-color: ${({ theme }) => theme.bgLighter};
   height: 56px;
+  @media ${devices.tablet} {
+    display: none;
+  }
 `;
 const Wrapper = styled.div`
   display: flex;
