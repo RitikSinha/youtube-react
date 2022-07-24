@@ -8,7 +8,7 @@ const Wrapper = styled.div`
 
   flex-wrap: wrap;
   justify-content: space-between;
-  @media ${devices.tablet} {
+  @media ${devices.mobileL} {
   }
 `;
 export const Home = () => {
